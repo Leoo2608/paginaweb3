@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/imagenes/fondofuture.jpg); 
+}
+nav{
+    height: 100px;
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    font-family: 'otrafuente';
+}
+nav ul li{
+    float: left;
+    margin-top: 14px;
+}
+nav a{
+    color: rgb(255, 255, 255); 
+    font-size: 16px;
+    text-decoration: none;
+    padding: 14px 20px 20px 20px;
+}
+nav li a:hover{
+    color: black;
+    border-bottom: 2px black solid;
+}
+.top1{
+    background-color: black;
+    height: 30px;
+    width: 900px;
+    margin: 0 auto;
+}
+.infoizq{
+    color: rgba(224, 231, 238, 0.952);
+    font-size: 16px;
+    padding: 5px 6px;
+    float: left;
+    
+}
+.infoder{
+    color: rgba(224, 231, 238, 0.952);
+    font-size: 16px;
+    padding: 5px 6px;
+    float: right;
+}
+.banner{
+    background-color: rgba(156, 187, 255, 0.5);
+    height: 300px;
+    width: 900px;
+    margin: 0 auto;
+}
+.logo_banner{
+    height: 80px;
+    width: 900px;
+    box-sizing: border-box;
+    padding: 13px 20px 20px 20px;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+}
+.titulo_banner{
+    margin-top: 14px;
+    padding-left: 10px;
+    float: left;
+    font-size: 25px;
+}
+.imagen{
+    float: left;
+}
+.header_banner{
+    text-align: center;
+}
+#t1{
+    list-style: none;
+    font-size: 100px;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+#t2{
+    padding-top: 40px;
+    margin-bottom: 0;
+    font-family: 'mifuente';
+}
+.contenido{
+    background-color: white;
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+}
+.counter{
+    width: 900px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    font-family: 'mifuente';
+}
+#count{
+    list-style: none;
+    text-align: center;
+    padding-top: 30px;
+}
+#count li{
+    display: inline;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+}
+.infoextra{
+    height: 50px;
+    width: 900px;
+    background-color: rgba(156, 187, 255, 0.5);
+    margin-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+#lp1-g2{
+    padding-top: 13px;
+    font-size: 13px;
+    color: black;
+}
+@font-face{
+    font-family: 'mifuente';
+    src: url(/fuentes/FROSTBITE-Wide.ttf);
+}
+#fuente-personalizada{
+    font-family: 'mifuente';
+}
+@font-face{
+    font-family: 'otrafuente';
+    src: url(/fuentes/Squarified.ttf);
+}
+#fuente-personalizada2{
+    font-family: 'otrafuente';
+}
